@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import joblib
-
+pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
 # Load model
 model = joblib.load("churn_model.pkl")
 
